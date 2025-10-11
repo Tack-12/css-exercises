@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+.no1,.no3,.no5{
+    background-color: pink;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#no2{
+    color: rgb(38, 38, 235);
+    font-size: 40px;
+}
+
+.no3{
+    font-size: 25px;
+}
+
+#no4{
+    background-color: greenyellow;
+    font-size: 25px;
+    font-weight: bold;
+}
