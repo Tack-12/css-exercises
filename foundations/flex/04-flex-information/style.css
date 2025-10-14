@@ -1,10 +1,15 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+  align-items:center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  justify-content: center;
 }
 
 .title {
@@ -20,7 +25,22 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;
   justify-content: center;
   background: #eee;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:28px;
+  max-width: 200px;
+}
+
